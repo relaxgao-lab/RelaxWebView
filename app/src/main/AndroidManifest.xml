@@ -20,7 +20,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.relaxgao.webview.MainProcessTestActivity"/>
-        <activity android:name="com.relaxgao.webview.MainProcessTestActivityB"/>
     </application>
 
 </manifest>

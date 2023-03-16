@@ -4,13 +4,16 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:gravity="center"
+    android:background="@color/colorAccent"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:padding="30dp"
-        android:text="I am a activity in main process"
+        android:gravity="center"
+        android:lineSpacingExtra="20dp"
+        android:text="我是主进程的activity\nwebview进程通知主进程要打开我\n然后我显示出来了"
         android:layout_height="wrap_content">
 
     </androidx.appcompat.widget.AppCompatTextView>
