@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.relaxgao.relaxgao">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:usesCleartextTraffic="true">
+        <service android:name="com.relaxgao.relaxgao.mainprocess.MainProcessCommandService"/>
+        <activity android:name="com.relaxgao.relaxgao.RelaxGaoWebViewActivity"
+            android:process=":relaxgaowebview"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    </application>
+</manifest>
